@@ -1,0 +1,27 @@
+---
+title: "Hello World!"
+description: |
+  This is the first post of the website exploring the radix system
+author:
+  - name: Tom Constant
+date: 11-07-2018
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Radix is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Radix at <https://rstudio.github.io/radix>.
+
+```{r, echo = TRUE}
+library(ggplot2)
+library(magrittr)
+
+diamonds %>% ggplot(aes(carat, price, colour = cut)) + geom_point()
+```
+

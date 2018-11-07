@@ -1,0 +1,12 @@
+name: "blog"
+title: "Our Blog"
+description: |
+  Our Blog
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "About"
+      href: about.html
+output: radix::radix_article

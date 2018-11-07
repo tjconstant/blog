@@ -1,0 +1,17 @@
+[
+  {
+    "path": "posts/2018-11-07-hello-world/",
+    "title": "Hello World!",
+    "description": "This is the first post of the website exploring the radix system",
+    "author": [
+      {
+        "name": "Tom Constant",
+        "url": {}
+      }
+    ],
+    "date": "2018-11-07",
+    "categories": [],
+    "preview": "posts/2018-11-07-hello-world/hello-world_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2018-11-07T20:05:27+00:00"
+  }
+]
