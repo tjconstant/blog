@@ -12,6 +12,21 @@
     "date": "2018-11-07",
     "categories": [],
     "preview": "posts/2018-11-07-hello-world/hello-world_files/figure-html5/unnamed-chunk-1-1.png",
-    "last_modified": "2018-11-07T20:05:27+00:00"
+    "last_modified": "2018-11-07T20:05:28+00:00"
+  },
+  {
+    "path": "posts/2018-11-07-popular-spunkr/",
+    "title": "How Popular is the name spunkr?",
+    "description": "A short analysis of preferences for the spunkr name",
+    "author": [
+      {
+        "name": "Tom Constant",
+        "url": {}
+      }
+    ],
+    "date": "2018-11-07",
+    "categories": [],
+    "preview": "posts/2018-11-07-popular-spunkr/popular-spunkr_files/figure-html5/unnamed-chunk-1-1.png",
+    "last_modified": "2018-11-07T20:20:51+00:00"
   }
 ]

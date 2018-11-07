@@ -1,0 +1,29 @@
+---
+title: "How Popular is the name spunkr?"
+description: |
+  A short analysis of preferences for the spunkr name
+author:
+  - name: Tom Constant
+    url: {}
+date: 11-07-2018
+output:
+  radix::radix_article:
+    self_contained: false
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Radix is a publication format for scientific and technical writing, native to the web.
+
+Learn more about using Radix at <https://rstudio.github.io/radix>.
+
+```{r}
+library(magrittr)
+library(ggplot2)
+
+tibble::tibble(x = c("spunkr", "jizzr"), y = c(50,60)) %>% 
+  ggplot2::ggplot(aes(x,y, fill = x)) + geom_col()
+```
+
